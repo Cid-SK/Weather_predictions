@@ -67,17 +67,6 @@ The application is deployed on Render. You can access it [here](https://weather-
 **GitHub Repository:**
 [Weather Prediction Web Application GitHub Repository](https://github.com/Cid-SK/Weather_predictions.git)
 
-**Setup Instructions:**
-
-### Prerequisites
-Ensure you have Python installed. Use the following commands to set up a virtual environment and install required packages:
-
-```bash
-python -m venv venv
-source venv/bin/activate  # For Windows: venv\Scripts\activate
-pip install -r requirements.txt
-```
-
 ### Project Structure
 - `app.py`: The main Streamlit application script.
 - `requirements.txt`: List of required Python packages.
@@ -85,22 +74,6 @@ pip install -r requirements.txt
 - `scaler.pkl`: Scaler used for feature standardization.
 - `reverse_mapping.pkl`: Mapping for reversing numerical predictions.
 - `Cloud Cover_label_encoder.pkl`, `Season_label_encoder.pkl`, `Location_label_encoder.pkl`: Label encoders for categorical features.
-
-### Running the Application
-To run the application locally, use the following command:
-
-```bash
-streamlit run app.py
-```
-
-Visit `http://localhost:8501` in your browser to interact with the application.
-
-**Configuration:**
-The application uses the following configurations:
-- **Model Path**: Path to the trained XGBoost model.
-- **Scaler Path**: Path to the scaler for feature standardization.
-- **Label Encoder Paths**: Paths to the label encoders for categorical features.
-- **Reverse Mapping Path**: Path to the reverse mapping for predictions.
 
 **Usage:**
 1. **Home Page:** Provides an overview of the application.
