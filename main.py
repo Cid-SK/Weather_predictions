@@ -6,24 +6,24 @@ import xgboost as xgb
 from sklearn.preprocessing import MinMaxScaler
 
 # Load the dataset
-df = pd.read_csv("G:/SK/Ds/weather/weather_classification_data.csv")
+df = pd.read_csv("weather_dataset.csv")
 
 # Load LabelEncoders
 le_dict = {}
 for col in ['Cloud Cover', 'Season', 'Location']:
-    with open(f'G:/SK/Ds/weather/{col}_label_encoder.pkl', 'rb') as file:
+    with open(f'{col}_label_encoder.pkl', 'rb') as file:
         le_dict[col] = pickle.load(file)
 
 # Load Scaler
-with open('G:/SK/Ds/weather/scaler.pkl', 'rb') as file:
+with open('scaler.pkl', 'rb') as file:
     scaler = pickle.load(file)
 
 # Load Model
-with open('G:/SK/Ds/weather/xgb_model.pkl', 'rb') as file:
+with open('xgb_model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Load reverse mappings
-with open('G:/SK/Ds/weather/reverse_mapping.pkl', 'rb') as file:
+with open('reverse_mapping.pkl', 'rb') as file:
     reverse_mapping = pickle.load(file)
 
 # Streamlit page configuration
