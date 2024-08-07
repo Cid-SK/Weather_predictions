@@ -11,10 +11,10 @@ This web application predicts weather conditions based on user input using a mac
 - **Home Page**: Displays an introduction to the application and its purpose.
 - **Prediction Tab**: Allows users to input weather-related parameters and get a prediction.
 - **Visualization Tab**: Provides various visualizations including:
-  - **Dataset Overview**: Displays the dataset and its summary.
-  - **Value Counts Pie Chart**: Visualizes categorical feature distributions using pie charts.
-  - **Mean Values Bar Chart**: Shows mean values for selected features grouped by categorical variables.
-  - **Distribution Plot**: Displays the distribution of selected features with customizable colors.
+- **Dataset Overview**: Displays the dataset and its summary.
+- **Value Counts Pie Chart**: Visualizes categorical feature distributions using pie charts.
+- **Mean Values Bar Chart**: Shows mean values for selected features grouped by categorical variables.
+- **Distribution Plot**: Displays the distribution of selected features with customizable colors.
 
 ## Setup
 
