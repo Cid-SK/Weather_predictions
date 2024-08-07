@@ -1,3 +1,5 @@
+Here's a properly formatted README file without YAML errors:
+
 ---
 
 # Weather Prediction Web Application
@@ -117,4 +119,6 @@ Feel free to submit issues and pull requests. Your contributions are welcome!
 **Contact:**
 For any questions or feedback, please contact [Sathish](mailto:2310sathishkumarsk@gmail.com).
 
----
+--- 
+
+This version should be correctly formatted and free of YAML-related issues. Let me know if there's anything else you'd like to add or modify!
