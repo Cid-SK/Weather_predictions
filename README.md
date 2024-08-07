@@ -2,81 +2,53 @@
 
 # Weather Prediction Web Application
 
-**Overview**
+**Description:**
+This project involves building a web application to predict weather conditions based on user input using a machine learning model. The application utilizes a trained XGBoost model to provide real-time weather predictions and includes features for visualizing weather data and distributions.
 
-This web application predicts weather conditions based on user input using a machine learning model. Built with Streamlit, it utilizes a trained XGBoost model to provide real-time weather predictions.
+**Skills Takeaway From This Project:**
+- Python programming
+- Streamlit
+- XGBoost
+- Data Visualization with Plotly
+- Model Deployment
 
-**Features**
+**Domain:**
+Data Science and Machine Learning
 
-- **Home Page:** Introduction to the application and its purpose.
-- **Prediction Tab:** Allows users to input weather-related parameters and receive a prediction.
-- **Visualization Tab:** Provides various visualizations, including:
-- **Dataset Overview:** Displays the dataset and its summary.
-- **Value Counts Pie Chart:** Visualizes distributions of categorical features.
-- **Mean Values Bar Chart:** Shows mean values for selected features grouped by categorical variables.
-- **Distribution Plot:** Displays the distribution of selected features with customizable colors.
+**Problem Statement:**
+Predict weather conditions based on user input parameters such as temperature, humidity, wind speed, and other weather-related features. This helps users understand potential weather outcomes based on their selected parameters.
 
-**Setup**
+**Dataset Information:**
+The dataset contains the following columns:
+- Temperature
+- Humidity
+- Wind Speed
+- Precipitation (%)
+- Cloud Cover
+- UV Index
+- Visibility (km)
+- Season
+- Location
+- Weather Type (dependent variable)
 
-**Prerequisites**
+**Tasks:**
 
-Ensure you have Python and the necessary packages installed. Create a virtual environment and install the dependencies using:
+**Task 1: Data Preparation**
+1. Load and preprocess the dataset.
+2. Encode categorical features and standardize numerical features.
 
-```bash
-python -m venv venv
-source venv/bin/activate  # For Windows use: venv\Scripts\activate
-pip install -r requirements.txt
-```
+**Task 2: Model Training**
+- Train an XGBoost model to predict weather types based on the input features.
+- Evaluate model performance and perform any necessary tuning.
 
-**Project Structure**
+**Task 3: Web Application Development**
+- Develop a Streamlit application to allow users to input weather parameters and receive predictions.
+- Implement features for visualizing dataset summaries, distributions, and categorical value counts using Plotly.
 
-- `app.py`: The main Streamlit application script.
-- `requirements.txt`: List of required Python packages.
-- `xgb_model.pkl`: Trained XGBoost model.
-- `scaler.pkl`: Scaler used for feature standardization.
-- `reverse_mapping.pkl`: Mapping for reversing numerical predictions.
-- `Cloud Cover_label_encoder.pkl`, `Season_label_encoder.pkl`, `Location_label_encoder.pkl`: Label encoders for categorical features.
+**Deployed Application:**
+You can access the deployed application [here](https://weather-predictions.onrender.com).
 
-**Running the Application**
-
-To run the application locally, use the following command:
-
-```bash
-streamlit run app.py
-```
-
-Visit `http://localhost:8501` in your browser to interact with the application.
-
-**Deployment**
-
-The application is deployed on [Render](https://render.com). You can access it [here](https://weather-predictions.onrender.com/).
-
-**Configuration**
-
-The application uses the following configurations:
-
-- **Model Path:** Path to the trained XGBoost model.
-- **Scaler Path:** Path to the scaler for feature standardization.
-- **Label Encoder Paths:** Paths to the label encoders for categorical features.
-- **Reverse Mapping Path:** Path to the reverse mapping for predictions.
-
-**Usage**
-
-1. **Home Page:** Provides an overview of the application.
-2. **Prediction Tab:**
-   - Input weather parameters using sliders and select boxes.
-   - Click the button to get the prediction.
-   - View the selected values and prediction on the same page.
-3. **Visualization Tab:**
-   - Explore the dataset, view distributions, and mean values.
-   - Select features to visualize distributions, categorical value counts, and mean values.
-
-**Contributing**
-
-Feel free to submit issues and pull requests. Your contributions are welcome!
-
-**Contact**
-
-For any questions or feedback, please contact Sathish at 2310sathishkumarsk@gmail.com.
+**GitHub Repository Link:**
+[here](https://github.com/Cid-SK/Weather-Prediction-Web-Application.git)
 
 ---
