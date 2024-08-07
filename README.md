@@ -1,5 +1,5 @@
 
-```markdown
+```
 # Weather Prediction Web Application
 
 ## Overview
