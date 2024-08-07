@@ -49,7 +49,7 @@ Visit `http://localhost:8501` in your browser to interact with the application.
 
 ## Deployment
 
-The application is deployed on [Render](https://render.com). You can access it [here](https://your-app-name.onrender.com).
+The application is deployed on [Render](https://render.com). You can access it [here](https://weather-predictions.onrender.com/).
 
 ## Configuration
 
