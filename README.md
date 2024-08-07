@@ -8,7 +8,7 @@ This web application predicts weather conditions based on user input using a mac
 
 ## Features
 
-- **Home Page**: Displays an introduction to the application and its purpose.
+- **Home Page:** Displays an introduction to the application and its purpose.
 - **Prediction Tab**: Allows users to input weather-related parameters and get a prediction.
 - **Visualization Tab**: Provides various visualizations including:
 - **Dataset Overview**: Displays the dataset and its summary.
