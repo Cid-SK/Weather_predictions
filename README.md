@@ -1,4 +1,3 @@
-Here's a properly formatted README file without YAML errors:
 
 ---
 
@@ -66,7 +65,7 @@ The dataset used in this project includes the following columns:
 The application is deployed on Render. You can access it [here](https://weather-predictions.onrender.com).
 
 **GitHub Repository:**
-[Weather Prediction Web Application GitHub Repository](https://github.com/Cid-SK/Weather-Prediction-Web-Application.git)
+[Weather Prediction Web Application GitHub Repository](https://github.com/Cid-SK/Weather_predictions.git)
 
 **Setup Instructions:**
 
@@ -121,4 +120,3 @@ For any questions or feedback, please contact [Sathish](mailto:2310sathishkumars
 
 --- 
 
-This version should be correctly formatted and free of YAML-related issues. Let me know if there's anything else you'd like to add or modify!
